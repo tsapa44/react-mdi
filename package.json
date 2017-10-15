@@ -1,6 +1,6 @@
 {
-  "name": "react-mdi",
-  "version": "0.5.7",
+  "name": "react-mdi-props",
+  "version": "0.0.2",
   "description": "Community Material Design Icons as react svg components",
   "main": "",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabriel-miranda/react-mdi.git"
+    "url": "git+https://github.com/tsapa44/react-mdi.git"
   },
   "keywords": [
     "react",
@@ -26,12 +26,12 @@
     "material-ui",
     "mdi"
   ],
-  "author": "David Lu & Gabriel Miranda",
+  "author": "Anton Tsapliuk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gabriel-miranda/react-mdi/issues"
+    "url": "https://github.com/tsapa44/react-mdi/issues"
   },
-  "homepage": "https://github.com/gabriel-miranda/react-mdi#readme",
+  "homepage": "https://github.com/tsapa44/react-mdi#readme",
   "peerDependencies": {
     "react": "*"
   },

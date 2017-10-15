@@ -1,4 +1,6 @@
-# react-mdi
+# react-mdi-props
+
+It's a fork from [react-mdi](https://github.com/gabriel-miranda/react-mdi) with realized pass props.
 
 Material-UI community Material Design Icons.
 
@@ -9,7 +11,7 @@ Special thanks to [Austin Andrews](https://github.com/Templarian) for managing M
 ## Installation
 
 ```sh
-npm install react-mdi
+npm install react-mdi-props
 ```
 
 ## Usage
@@ -17,22 +19,26 @@ npm install react-mdi
 ```js
 import React from 'react';
 
-import AccountIcon from 'react-mdi/icons/account';
+import AccountIcon from 'react-mdi-props/icons/account';
 
 export default class Account extends React.Component {
+  onClick = () => { console.log('Click!'); };
   render() {
+    const color = '#fff';
     return (
-      <AccountIcon size={16} className="myClassName" />
+      <AccountIcon
+        className="myClassName"
+        fill={color}
+        size={16}
+        onClick={this.onClick}
+      />
     );
   }
 }
 ```
 
 ## Props
-| Prop        | Default value | Usage                                                                                                  |
-|:------------|:--------------|:-------------------------------------------------------------------------------------------------------|
-| `size`      | **24**        | Used to set the `height`and `width` in the style attribute                                             |
-| `className` | **null**      | Used to apply a css class to the component and properly style it                                       |
+Icon component can get any props.
 
 ## Build
 
